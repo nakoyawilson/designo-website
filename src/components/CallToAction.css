@@ -1,0 +1,35 @@
+.cta {
+  width: min(87.2%, 327px);
+  margin: 0 auto;
+  padding: 6.4rem 2.4rem;
+  background-color: var(--peach);
+  background-image: url("../assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  text-align: center;
+  color: var(--white);
+  position: absolute;
+  top: -19rem;
+  left: 0;
+  right: 0;
+}
+
+.cta .section-heading {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.cta .paragraph {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 0.6rem;
+}
+
+.cta .btn-light {
+  margin: 3.2rem auto 0;
+  padding: 1.7rem 1.9rem 1.7rem 1.8rem;
+}

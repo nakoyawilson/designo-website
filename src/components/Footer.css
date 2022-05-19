@@ -1,16 +1,22 @@
 .footer {
   background: var(--black);
-  padding: 6.4rem 0;
+  padding-bottom: 6.4rem;
+  position: relative;
 }
 
 .footer .container {
   margin-inline: auto;
   text-align: center;
   color: var(--white);
+  padding-top: 6.4rem;
+}
+
+.cta + .container {
+  padding-top: 25.3rem;
 }
 
 .footer .logo {
-  margin-inline: auto;
+  margin: 0 auto;
 }
 
 .contact-detail {

@@ -1,4 +1,5 @@
-import { NavLink } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import CallToAction from "./CallToAction";
 import Navbar from "./Navbar";
 import lightLogo from "../assets/shared/desktop/logo-light.png";
 import facebook from "../assets/shared/desktop/icon-facebook.svg";
@@ -9,12 +10,15 @@ import pinterest from "../assets/shared/desktop/icon-pinterest.svg";
 import "./Footer.css";
 
 const Footer = () => {
+  let location = useLocation();
+
   return (
     <footer className="footer">
+      {location.pathname !== "/contact" && <CallToAction />}
       <div className="container">
-        <NavLink to="/">
+        <Link to="/">
           <img src={lightLogo} alt="Designo logo" className="logo" />
-        </NavLink>
+        </Link>
         <Navbar />
         <address className="contact-details-wrapper">
           <span className="contact-detail contact-detail-heading">

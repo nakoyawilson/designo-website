@@ -11,6 +11,12 @@
 }
 
 /* General Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -33,14 +39,4 @@ button {
 
 a {
   text-decoration: none;
-}
-
-/* Shared Styles */
-
-.container {
-  width: min(87.2%, 327px);
-}
-
-.logo {
-  width: 202px;
 }
