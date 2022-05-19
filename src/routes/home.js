@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
+import InnerPagesNav from "../components/InnerPagesNav";
 import "./home.css";
 import passionateIllustration from "../assets/home/desktop/illustration-passionate.svg";
 import friendlyIllustration from "../assets/home/desktop/illustration-friendly.svg";
 import resourcefulIllustration from "../assets/home/desktop/illustration-resourceful.svg";
-import rightArrow from "../assets/shared/desktop/icon-right-arrow.svg";
 
 const Home = () => {
   return (
@@ -21,35 +21,7 @@ const Home = () => {
           Learn more
         </Link>
       </section>
-      <ul className="inner-pages grid container">
-        <li className="inner-page-wrapper">
-          <Link to="">
-            <h2 className="subheading">Web Design</h2>
-            <span className="view-projects">
-              View Projects
-              <img src={rightArrow} alt="" className="right-arrow-icon" />
-            </span>
-          </Link>
-        </li>
-        <li className="inner-page-wrapper">
-          <Link to="">
-            <h2 className="subheading">App Design</h2>
-            <span className="view-projects">
-              View Projects
-              <img src={rightArrow} alt="" className="right-arrow-icon" />
-            </span>
-          </Link>
-        </li>
-        <li className="inner-page-wrapper">
-          <Link to="">
-            <h2 className="subheading">Graphic Design</h2>
-            <span className="view-projects">
-              View Projects
-              <img src={rightArrow} alt="" className="right-arrow-icon" />
-            </span>
-          </Link>
-        </li>
-      </ul>
+      <InnerPagesNav />
       <div className="qualities grid container">
         <section className="quality">
           <div className="illustration-wrapper">

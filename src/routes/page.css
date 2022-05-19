@@ -1,0 +1,28 @@
+.page {
+  padding-bottom: 28.6rem;
+}
+
+.page .hero {
+  text-align: center;
+  color: var(--white);
+  padding: 10.5rem 2.4rem;
+}
+
+.page .main-heading {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.page .hero .paragraph {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 2.4rem;
+}
+
+.card-grid {
+  margin: 9.6rem auto 0;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}

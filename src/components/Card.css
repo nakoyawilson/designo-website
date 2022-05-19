@@ -1,0 +1,31 @@
+.card {
+  background: var(--very-light-peach);
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card .content-wrapper {
+  padding: 3.2rem 2.99rem;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  letter-spacing: 5px;
+  color: var(--peach);
+  text-transform: uppercase;
+}
+
+.card-description {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: var(--dark-grey);
+  margin-top: 1.6rem;
+}
