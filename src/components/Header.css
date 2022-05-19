@@ -1,0 +1,6 @@
+.header {
+  margin: 3.5rem auto 3.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

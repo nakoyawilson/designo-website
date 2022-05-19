@@ -1,0 +1,40 @@
+.footer {
+  background: var(--black);
+  padding: 6.4rem 0;
+}
+
+.footer .container {
+  margin-inline: auto;
+  text-align: center;
+  color: var(--white);
+}
+
+.footer .logo {
+  margin-inline: auto;
+}
+
+.contact-detail {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  opacity: 0.5;
+  display: block;
+}
+
+.contact-detail.contact-detail-heading {
+  font-weight: 700;
+  margin-top: 4rem;
+}
+
+.social-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  margin-top: 4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+}
