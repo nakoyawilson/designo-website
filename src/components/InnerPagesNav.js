@@ -6,7 +6,7 @@ const InnerPagesNav = ({ scrollToTop }) => {
   let location = useLocation();
 
   return (
-    <ul className="inner-pages grid container">
+    <ul className="inner-pages grid container" id="services">
       {location.pathname !== "/web" && (
         <li className="inner-page-wrapper">
           <Link to="/web" onClick={scrollToTop}>

@@ -1,4 +1,5 @@
-import { Link, useOutletContext } from "react-router-dom";
+import { useOutletContext } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import InnerPagesNav from "../components/InnerPagesNav";
 import "./home.css";
 import passionateIllustration from "../assets/home/desktop/illustration-passionate.svg";
@@ -19,9 +20,14 @@ const Home = () => {
           fully responsive websites, app design, and engaging brand experiences.
           Find out more about our services.
         </p>
-        <Link to="/contact" className="btn btn-light" onClick={scrollToTop}>
+        <HashLink
+          smooth
+          to="#services"
+          className="btn btn-light"
+          onClick={scrollToTop}
+        >
           Learn more
-        </Link>
+        </HashLink>
       </section>
       <InnerPagesNav scrollToTop={scrollToTop} />
       <div className="qualities grid container">

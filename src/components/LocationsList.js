@@ -16,7 +16,7 @@ const LocationsList = () => {
           />
         </span>
         <h2 className="list-heading">Canada</h2>
-        <HashLink to="/locations#canada" className="btn btn-dark">
+        <HashLink smooth to="/locations#canada" className="btn btn-dark">
           See location
         </HashLink>
       </li>
@@ -29,7 +29,7 @@ const LocationsList = () => {
           />
         </span>
         <h2 className="list-heading">Australia</h2>
-        <HashLink to="/locations#australia" className="btn btn-dark">
+        <HashLink smooth to="/locations#australia" className="btn btn-dark">
           See location
         </HashLink>
       </li>
@@ -38,7 +38,7 @@ const LocationsList = () => {
           <img src={ukIllustration} alt="" className="location-illustration" />
         </span>
         <h2 className="list-heading">United Kingdom</h2>
-        <HashLink to="/locations#united-kingdom" className="btn btn-dark">
+        <HashLink smooth to="/locations#uk" className="btn btn-dark">
           See location
         </HashLink>
       </li>
