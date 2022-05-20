@@ -16,15 +16,21 @@ function App() {
     setShowMenu((prevShowMenu) => !prevShowMenu);
     document.body.classList.toggle("lock-scroll");
   };
+
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <Header
         showMenu={showMenu}
         closeMenu={closeMenu}
         toggleMenu={toggleMenu}
+        scrollToTop={scrollToTop}
       />
-      <Outlet />
-      <Footer />
+      <Outlet context={scrollToTop} />
+      <Footer scrollToTop={scrollToTop} />
     </>
   );
 }

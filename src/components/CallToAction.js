@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./CallToAction.css";
 
-const CallToAction = () => {
+const CallToAction = ({ scrollToTop }) => {
   return (
     <section className="cta">
       <h2 className="section-heading">Let’s talk about your project</h2>
@@ -9,7 +9,7 @@ const CallToAction = () => {
         Ready to take it to the next level? Contact us today and find out how
         our expertise can help your business grow.
       </p>
-      <Link to="/contact" className="btn btn-light">
+      <Link to="/contact" className="btn btn-light" onClick={scrollToTop}>
         Get in touch
       </Link>
     </section>

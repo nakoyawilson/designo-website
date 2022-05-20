@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import australiaIllustration from "../assets/shared/desktop/illustration-australia.svg";
 import canadaIllustration from "../assets/shared/desktop/illustration-canada.svg";
 import ukIllustration from "../assets/shared/desktop/illustration-united-kingdom.svg";
@@ -16,9 +16,9 @@ const LocationsList = () => {
           />
         </span>
         <h2 className="list-heading">Canada</h2>
-        <Link to="/locations" className="btn btn-dark">
+        <HashLink to="/locations#canada" className="btn btn-dark">
           See location
-        </Link>
+        </HashLink>
       </li>
       <li className="locations-list-item">
         <span className="illustration-wrapper">
@@ -29,18 +29,18 @@ const LocationsList = () => {
           />
         </span>
         <h2 className="list-heading">Australia</h2>
-        <Link to="/locations" className="btn btn-dark">
+        <HashLink to="/locations#australia" className="btn btn-dark">
           See location
-        </Link>
+        </HashLink>
       </li>
       <li className="locations-list-item">
         <span className="illustration-wrapper">
           <img src={ukIllustration} alt="" className="location-illustration" />
         </span>
         <h2 className="list-heading">United Kingdom</h2>
-        <Link to="/locations" className="btn btn-dark">
+        <HashLink to="/locations#united-kingdom" className="btn btn-dark">
           See location
-        </Link>
+        </HashLink>
       </li>
     </ul>
   );

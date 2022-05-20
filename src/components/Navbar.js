@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-const Navbar = ({ closeMenu, showMenu }) => {
+const Navbar = ({ closeMenu, showMenu, scrollToTop }) => {
   return (
     <nav className={`navigation${showMenu ? " open" : ""}`}>
       <ul className="nav-links-wrapper">
@@ -11,7 +11,10 @@ const Navbar = ({ closeMenu, showMenu }) => {
             className={({ isActive }) =>
               `nav-link ${isActive ? "active-nav-link" : ""}`
             }
-            onClick={closeMenu}
+            onClick={() => {
+              scrollToTop();
+              closeMenu();
+            }}
           >
             Our Company
           </NavLink>
@@ -22,7 +25,10 @@ const Navbar = ({ closeMenu, showMenu }) => {
             className={({ isActive }) =>
               `nav-link ${isActive ? "active-nav-link" : ""}`
             }
-            onClick={closeMenu}
+            onClick={() => {
+              scrollToTop();
+              closeMenu();
+            }}
           >
             Locations
           </NavLink>
@@ -33,7 +39,10 @@ const Navbar = ({ closeMenu, showMenu }) => {
             className={({ isActive }) =>
               `nav-link ${isActive ? "active-nav-link" : ""}`
             }
-            onClick={closeMenu}
+            onClick={() => {
+              scrollToTop();
+              closeMenu();
+            }}
           >
             Contact
           </NavLink>

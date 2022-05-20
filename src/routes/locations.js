@@ -23,7 +23,7 @@ const Locations = () => {
           className="location-map"
         />
       </picture>
-      <section className="location">
+      <section className="location" id="canada">
         <h2 className="section-heading">Canada</h2>
         <address className="location-details-wrapper">
           <span className="location-detail location-detail-heading">
@@ -51,7 +51,7 @@ const Locations = () => {
           className="location-map"
         />
       </picture>
-      <section className="location">
+      <section className="location" id="australia">
         <h2 className="section-heading">Australia</h2>
         <address className="location-details-wrapper">
           <span className="location-detail location-detail-heading">
@@ -79,7 +79,7 @@ const Locations = () => {
           className="location-map"
         />
       </picture>
-      <section className="location">
+      <section className="location" id="united-kingdom">
         <h2 className="section-heading">United Kingdom</h2>
         <address className="location-details-wrapper">
           <span className="location-detail">Designo UK Office</span>

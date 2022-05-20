@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useOutletContext } from "react-router-dom";
 import InnerPagesNav from "../components/InnerPagesNav";
 import "./home.css";
 import passionateIllustration from "../assets/home/desktop/illustration-passionate.svg";
@@ -6,6 +6,8 @@ import friendlyIllustration from "../assets/home/desktop/illustration-friendly.s
 import resourcefulIllustration from "../assets/home/desktop/illustration-resourceful.svg";
 
 const Home = () => {
+  const scrollToTop = useOutletContext();
+
   return (
     <main className="home">
       <section className="hero">
@@ -17,11 +19,11 @@ const Home = () => {
           fully responsive websites, app design, and engaging brand experiences.
           Find out more about our services.
         </p>
-        <Link to="/contact" className="btn btn-light">
+        <Link to="/contact" className="btn btn-light" onClick={scrollToTop}>
           Learn more
         </Link>
       </section>
-      <InnerPagesNav />
+      <InnerPagesNav scrollToTop={scrollToTop} />
       <div className="qualities grid container">
         <section className="quality">
           <div className="illustration-wrapper">

@@ -41,7 +41,7 @@ const About = () => {
         <source media="(min-width: 801px)" srcSet={worldClassDesktop} />
         <img src={worldClassMobile} alt="" className="" />
       </picture>
-      <section class="about-section">
+      <section className="about-section">
         <h2 className="section-heading">World-class talent</h2>
         <p className="paragraph">
           We are a crew of strategists, problem-solvers, and technologists.
@@ -67,7 +67,7 @@ const About = () => {
         <source media="(min-width: 801px)" srcSet={realDealDesktop} />
         <img src={realDealMobile} alt="" className="" />
       </picture>
-      <section class="about-section">
+      <section className="about-section">
         <h2 className="section-heading">The real deal</h2>
         <p className="paragraph">
           As strategic partners in our clients’ businesses, we are ready to take

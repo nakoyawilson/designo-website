@@ -5,16 +5,20 @@ import hamburgerIcon from "../assets/shared/mobile/icon-hamburger.svg";
 import closeIcon from "../assets/shared/mobile/icon-close.svg";
 import "./Header.css";
 
-const Header = ({ showMenu, closeMenu, toggleMenu }) => {
+const Header = ({ showMenu, closeMenu, toggleMenu, scrollToTop }) => {
   return (
     <header className="header container">
-      <Link to="/">
+      <Link to="/" onClick={scrollToTop}>
         <img src={darkLogo} alt="Designo logo" className="logo" />
       </Link>
       <button onClick={toggleMenu}>
         <img src={showMenu ? closeIcon : hamburgerIcon} alt="" />
       </button>
-      <Navbar closeMenu={closeMenu} showMenu={showMenu} />
+      <Navbar
+        closeMenu={closeMenu}
+        showMenu={showMenu}
+        scrollToTop={scrollToTop}
+      />
     </header>
   );
 };

@@ -1,3 +1,4 @@
+import { useOutletContext } from "react-router-dom";
 import InnerPagesNav from "../components/InnerPagesNav";
 import Card from "../components/Card";
 import airfilter from "../assets/app-design/desktop/image-airfilter.jpg";
@@ -8,6 +9,8 @@ import todo from "../assets/app-design/desktop/image-todo.jpg";
 import "./page.css";
 
 const AppDesign = () => {
+  const scrollToTop = useOutletContext();
+
   return (
     <main className="page">
       <section className="hero">
@@ -48,7 +51,7 @@ const AppDesign = () => {
           cardImg={loopstudios}
         />
       </div>
-      <InnerPagesNav />
+      <InnerPagesNav scrollToTop={scrollToTop} />
     </main>
   );
 };

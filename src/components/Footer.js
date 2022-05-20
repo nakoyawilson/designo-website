@@ -9,17 +9,19 @@ import twitter from "../assets/shared/desktop/icon-twitter.svg";
 import pinterest from "../assets/shared/desktop/icon-pinterest.svg";
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({ scrollToTop }) => {
   let location = useLocation();
 
   return (
     <footer className="footer">
-      {location.pathname !== "/contact" && <CallToAction />}
+      {location.pathname !== "/contact" && (
+        <CallToAction scrollToTop={scrollToTop} />
+      )}
       <div className="container">
-        <Link to="/">
+        <Link to="/" onClick={scrollToTop}>
           <img src={lightLogo} alt="Designo logo" className="logo" />
         </Link>
-        <Navbar />
+        <Navbar scrollToTop={scrollToTop} />
         <address className="contact-details-wrapper">
           <span className="contact-detail contact-detail-heading">
             Designo Central Office

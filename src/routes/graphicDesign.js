@@ -1,3 +1,4 @@
+import { useOutletContext } from "react-router-dom";
 import InnerPagesNav from "../components/InnerPagesNav";
 import Card from "../components/Card";
 import boxedWater from "../assets/graphic-design/desktop/image-boxed-water.jpg";
@@ -6,6 +7,8 @@ import science from "../assets/graphic-design/desktop/image-science.jpg";
 import "./page.css";
 
 const GraphicDesign = () => {
+  const scrollToTop = useOutletContext();
+
   return (
     <main className="page">
       <section className="hero">
@@ -32,7 +35,7 @@ const GraphicDesign = () => {
           cardImg={science}
         />
       </div>
-      <InnerPagesNav />
+      <InnerPagesNav scrollToTop={scrollToTop} />
     </main>
   );
 };
