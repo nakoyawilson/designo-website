@@ -9,6 +9,7 @@
   --black-transparent: hsla(0, 0%, 0%, 0.5);
   --dark-grey: hsla(264, 5%, 20%, 1);
   --white: hsla(0, 0%, 100%, 1);
+  --white-transparent: hsla(0, 0%, 100%, 0.1);
   --light-grey: hsla(210, 17%, 95%, 1);
 }
 

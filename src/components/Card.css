@@ -29,3 +29,23 @@
   color: var(--dark-grey);
   margin-top: 1.6rem;
 }
+
+/* Media Queries */
+@media (min-width: 376px) {
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card .content-wrapper {
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-description {
+    margin-top: 1.466rem;
+  }
+}

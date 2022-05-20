@@ -61,3 +61,37 @@
   color: var(--white);
   text-transform: uppercase;
 }
+
+/* Media Queries */
+@media (min-width: 376px) {
+  .header .navigation {
+    background: none;
+    position: static;
+    width: fit-content;
+    height: auto;
+    transform: translateX(0);
+  }
+
+  .header .nav-links-wrapper {
+    background: none;
+    padding: 0;
+    flex-direction: row;
+    gap: 4.2rem;
+  }
+
+  .header .nav-link {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--dark-grey);
+  }
+
+  .footer .nav-links-wrapper {
+    flex-direction: row;
+    gap: 4.2rem;
+    margin-top: 0;
+  }
+
+  .footer .nav-links-wrapper::before {
+    content: none;
+  }
+}

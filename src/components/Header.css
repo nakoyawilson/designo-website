@@ -4,3 +4,14 @@
   justify-content: space-between;
   align-items: center;
 }
+
+/* Media Queries */
+@media (min-width: 376px) {
+  .header {
+    margin: 6.4rem auto;
+  }
+
+  .mobile {
+    display: none;
+  }
+}

@@ -10,7 +10,7 @@ const Locations = () => {
   return (
     <main className="locations">
       <h1 className="visually-hidden">Our Locations</h1>
-      <div id="canada">
+      <div id="canada" className="location-wrapper">
         <picture>
           <source media="(max-width: 375px)" srcSet={canadaMapDesktop} />
           <source
@@ -27,20 +27,24 @@ const Locations = () => {
         <section className="location">
           <h2 className="section-heading">Canada</h2>
           <address className="location-details-wrapper">
-            <span className="location-detail location-detail-heading">
-              Designo Central Office
+            <span>
+              <span className="location-detail location-detail-heading">
+                Designo Central Office
+              </span>
+              <span className="location-detail">3886 Wellington Street</span>
+              <span className="location-detail">Toronto, Ontario M9C 3J5</span>
             </span>
-            <span className="location-detail">3886 Wellington Street</span>
-            <span className="location-detail">Toronto, Ontario M9C 3J5</span>
-            <span className="location-detail location-detail-heading">
-              Contact
+            <span>
+              <span className="location-detail location-detail-heading">
+                Contact
+              </span>
+              <span className="location-detail">P : +1 253-863-8967</span>
+              <span className="location-detail">M : contact@designo.co</span>
             </span>
-            <span className="location-detail">P : +1 253-863-8967</span>
-            <span className="location-detail">M : contact@designo.co</span>
           </address>
         </section>
       </div>
-      <div id="australia">
+      <div id="australia" className="location-wrapper">
         <picture>
           <source media="(max-width: 375px)" srcSet={australiaMapDesktop} />
           <source
@@ -57,20 +61,24 @@ const Locations = () => {
         <section className="location">
           <h2 className="section-heading">Australia</h2>
           <address className="location-details-wrapper">
-            <span className="location-detail location-detail-heading">
-              Designo AU Office
+            <span>
+              <span className="location-detail location-detail-heading">
+                Designo AU Office
+              </span>
+              <span className="location-detail">19 Balonne Street</span>
+              <span className="location-detail">New South Wales 2443</span>
             </span>
-            <span className="location-detail">19 Balonne Street</span>
-            <span className="location-detail">New South Wales 2443</span>
-            <span className="location-detail location-detail-heading">
-              Contact
+            <span>
+              <span className="location-detail location-detail-heading">
+                Contact
+              </span>
+              <span className="location-detail">P : (02) 6720 9092</span>
+              <span className="location-detail">M : contact@designo.au</span>
             </span>
-            <span className="location-detail">P : (02) 6720 9092</span>
-            <span className="location-detail">M : contact@designo.au</span>
           </address>
         </section>
       </div>
-      <div id="uk">
+      <div id="uk" className="location-wrapper">
         <picture>
           <source media="(max-width: 375px)" srcSet={ukMapDesktop} />
           <source
@@ -87,12 +95,16 @@ const Locations = () => {
         <section className="location">
           <h2 className="section-heading">United Kingdom</h2>
           <address className="location-details-wrapper">
-            <span className="location-detail">Designo UK Office</span>
-            <span className="location-detail">13 Colorado Way</span>
-            <span className="location-detail">Rhyd-y-fro SA8 9GA</span>
-            <span className="location-detail">Contact</span>
-            <span className="location-detail">P : 078 3115 1400</span>
-            <span className="location-detail">M : contact@designo.uk</span>
+            <span>
+              <span className="location-detail">Designo UK Office</span>
+              <span className="location-detail">13 Colorado Way</span>
+              <span className="location-detail">Rhyd-y-fro SA8 9GA</span>
+            </span>
+            <span>
+              <span className="location-detail">Contact</span>
+              <span className="location-detail">P : 078 3115 1400</span>
+              <span className="location-detail">M : contact@designo.uk</span>
+            </span>
           </address>
         </section>
       </div>

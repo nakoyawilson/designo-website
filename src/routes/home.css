@@ -70,3 +70,49 @@
   font-size: 1.6rem;
   line-height: 2.6rem;
 }
+
+/* Media Queries */
+@media (min-width: 376px) {
+  .home .hero {
+    padding: 6rem 5.8rem 45.7rem;
+    background-image: url("../assets/home/desktop/image-hero-phone.png");
+    /* background-position: center bottom -370px; */
+  }
+
+  .home .main-heading {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    width: min(100%, 57.3rem);
+    margin-inline: auto;
+  }
+
+  .home .hero .paragraph {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin: 2.9rem auto 0;
+    width: min(100%, 44rem);
+  }
+
+  .home .btn-light {
+    margin: 1.9rem auto 0;
+  }
+
+  .qualities {
+    gap: 3.2rem;
+  }
+
+  .quality {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+  }
+
+  .quality .section-heading {
+    margin-top: 0;
+  }
+
+  .quality .paragraph {
+    margin-top: 1.6rem;
+  }
+}

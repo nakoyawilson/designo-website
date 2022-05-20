@@ -11,7 +11,7 @@ const Header = ({ showMenu, closeMenu, toggleMenu, scrollToTop }) => {
       <Link to="/" onClick={scrollToTop}>
         <img src={darkLogo} alt="Designo logo" className="logo" />
       </Link>
-      <button onClick={toggleMenu}>
+      <button className="mobile" onClick={toggleMenu}>
         <img src={showMenu ? closeIcon : hamburgerIcon} alt="" />
       </button>
       <Navbar

@@ -33,3 +33,29 @@
   margin: 3.2rem auto 0;
   padding: 1.7rem 1.9rem 1.7rem 1.8rem;
 }
+
+/* Media Queries */
+@media (min-width: 376px) {
+  .cta {
+    width: min(89.84375%, 690px);
+    margin: 0 auto;
+    padding: 5.7rem 5.9rem 5.7rem 5.8rem;
+    /* background-image: url("../assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg"); */
+    top: -26.4rem;
+  }
+
+  .cta .section-heading {
+    font-size: 4rem;
+    line-height: 4rem;
+    width: min(100%, 33.5rem);
+    margin-inline: auto;
+  }
+
+  .cta .paragraph {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-top: 1.8rem;
+    width: min(100%, 45rem);
+    margin-inline: auto;
+  }
+}

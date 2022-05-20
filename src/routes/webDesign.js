@@ -34,7 +34,7 @@ const Web = () => {
         />
         <Card
           cardTitle="Photon"
-          cardDescription="A state-of-the-art music player with high-resolution audio and DSP effects"
+          cardDescription="A state-of-the-art music player with high&#8209;resolution audio and DSP effects"
           cardImg={photon}
         />
         <Card

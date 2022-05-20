@@ -75,3 +75,10 @@
 .lock-scroll {
   overflow: hidden;
 }
+
+/* Media Queries */
+@media (min-width: 376px) {
+  .container {
+    width: min(89.71354%, 689px);
+  }
+}

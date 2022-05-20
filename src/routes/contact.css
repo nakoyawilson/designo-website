@@ -48,3 +48,38 @@
   padding: 1.8rem 4.7rem 1.6rem 4.8rem;
   margin: 1.5rem auto 0;
 }
+
+/* Media Queries */
+@media (min-width: 376px) {
+  .contact-section {
+    width: min(89.71354%, 689px);
+    margin-inline: auto;
+    padding: 7.1rem 5.8rem;
+    text-align: left;
+    border-radius: 15px;
+  }
+
+  .contact-section .main-heading {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+  }
+
+  .contact-section .paragraph {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin-top: 3.2rem;
+  }
+
+  .contact-form {
+    margin-top: 4rem;
+  }
+
+  .form-input {
+    padding: 0 2.413rem 1.2rem;
+  }
+
+  .contact-form .btn-light {
+    padding: 1.7rem 4.7rem 1.7rem 4.8rem;
+    margin: -0.1rem 0 0 auto;
+  }
+}
