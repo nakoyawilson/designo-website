@@ -8,16 +8,25 @@
   width: 202px;
 }
 
-.btn-light {
-  display: inline-block;
-  background: var(--white);
+.btn {
+  display: block;
+  width: fit-content;
   border-radius: 8px;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2.2rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.btn-light {
+  background: var(--white);
   color: var(--dark-grey);
+}
+
+.btn-dark {
+  background: var(--peach);
+  color: var(--white);
 }
 
 .hero {
@@ -39,4 +48,26 @@
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+.illustration-wrapper {
+  position: relative;
+}
+
+.illustration-wrapper::before {
+  content: "";
+  width: 202px;
+  height: 202px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  opacity: 0.2;
+  border-radius: 50%;
 }

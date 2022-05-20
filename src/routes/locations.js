@@ -10,14 +10,18 @@ const Locations = () => {
   return (
     <main className="locations">
       <h1 className="visually-hidden">Our Locations</h1>
-      <picture className="location-map">
+      <picture>
         <source media="(max-width: 375px)" srcSet={canadaMapDesktop} />
         <source
           media="(max-width: 800px) and (min-width: 376px)"
           srcSet={canadaMapTablet}
         />
         <source media="(min-width: 801px)" srcSet={canadaMapDesktop} />
-        <img src={canadaMapDesktop} alt="Map of Canada" />
+        <img
+          src={canadaMapDesktop}
+          alt="Map of Canada"
+          className="location-map"
+        />
       </picture>
       <section className="location">
         <h2 className="section-heading">Canada</h2>
@@ -34,14 +38,18 @@ const Locations = () => {
           <span className="location-detail">M : contact@designo.co</span>
         </address>
       </section>
-      <picture className="location-map">
+      <picture>
         <source media="(max-width: 375px)" srcSet={australiaMapDesktop} />
         <source
           media="(max-width: 800px) and (min-width: 376px)"
           srcSet={australiaMapTablet}
         />
         <source media="(min-width: 801px)" srcSet={australiaMapDesktop} />
-        <img src={australiaMapDesktop} alt="Map of Australia" />
+        <img
+          src={australiaMapDesktop}
+          alt="Map of Australia"
+          className="location-map"
+        />
       </picture>
       <section className="location">
         <h2 className="section-heading">Australia</h2>
@@ -58,14 +66,18 @@ const Locations = () => {
           <span className="location-detail">M : contact@designo.au</span>
         </address>
       </section>
-      <picture className="location-map">
+      <picture>
         <source media="(max-width: 375px)" srcSet={ukMapDesktop} />
         <source
           media="(max-width: 800px) and (min-width: 376px)"
           srcSet={ukMapTablet}
         />
         <source media="(min-width: 801px)" srcSet={ukMapDesktop} />
-        <img src={ukMapDesktop} alt="Map of United Kingdom" />
+        <img
+          src={ukMapDesktop}
+          alt="Map of United Kingdom"
+          className="location-map"
+        />
       </picture>
       <section className="location">
         <h2 className="section-heading">United Kingdom</h2>

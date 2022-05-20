@@ -38,28 +38,6 @@
   color: var(--dark-grey);
 }
 
-.illustration-wrapper {
-  position: relative;
-}
-
-.illustration-wrapper::before {
-  content: "";
-  width: 202px;
-  height: 202px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin-inline: auto;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 2, 2, 0.0001) 0%,
-    rgba(93, 2, 2, 0.497569) 100%
-  );
-  opacity: 0.2;
-  border-radius: 50%;
-}
-
 .quality:nth-child(1) > .illustration-wrapper::before {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }

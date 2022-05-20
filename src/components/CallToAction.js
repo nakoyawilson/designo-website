@@ -9,7 +9,7 @@ const CallToAction = () => {
         Ready to take it to the next level? Contact us today and find out how
         our expertise can help your business grow.
       </p>
-      <Link to="/contact" className="btn-light">
+      <Link to="/contact" className="btn btn-light">
         Get in touch
       </Link>
     </section>

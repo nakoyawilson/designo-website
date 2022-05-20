@@ -1,0 +1,41 @@
+.locations-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  margin: 12rem auto;
+}
+
+.location-illustration {
+  width: 202px;
+  margin-inline: auto;
+}
+
+.locations-list-item:nth-child(1) > .illustration-wrapper::before {
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.locations-list-item::nth-child(2) > .illustration-wrapper::before {
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.locations-list-item:nth-child(3) > .illustration-wrapper::before {
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}
+
+.list-heading {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  letter-spacing: 5px;
+  color: var(--dark-grey);
+  text-transform: uppercase;
+  margin-top: 4.8rem;
+}
+
+.locations-list .btn-dark {
+  padding: 1.8rem 1.85rem 1.6rem;
+  margin: 3.2rem auto 0;
+}

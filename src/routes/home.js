@@ -17,7 +17,7 @@ const Home = () => {
           fully responsive websites, app design, and engaging brand experiences.
           Find out more about our services.
         </p>
-        <Link to="/contact" className="btn-light">
+        <Link to="/contact" className="btn btn-light">
           Learn more
         </Link>
       </section>

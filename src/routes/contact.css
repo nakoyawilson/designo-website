@@ -1,0 +1,50 @@
+.contact-section {
+  padding: 7.2rem 2.4rem;
+  background-color: var(--peach);
+  text-align: center;
+  color: var(--white);
+}
+
+.contact-section .main-heading {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.contact-section .paragraph {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 2.4rem;
+}
+
+.contact-form {
+  margin-top: 4.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: var(--white);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--white);
+  padding: 0 1.377rem 1.1rem;
+}
+
+.form-input::placeholder {
+  color: var(--white);
+  opacity: 0.5;
+}
+
+.contact-form .btn-light {
+  padding: 1.8rem 4.7rem 1.6rem 4.8rem;
+  margin: 1.5rem auto 0;
+}

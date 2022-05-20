@@ -1,0 +1,41 @@
+.about {
+  padding-bottom: 31rem;
+}
+
+.about .hero,
+.about-section {
+  padding: 8rem 2.4rem;
+}
+
+.about .main-heading {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+
+.about .hero .paragraph {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 2.4rem;
+}
+
+.about-section {
+  background-color: var(--very-light-peach);
+  text-align: center;
+}
+
+.about-section .section-heading {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  color: var(--peach);
+}
+
+.about-section .paragraph {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: var(--dark-grey);
+  margin-top: 2.4rem;
+}
