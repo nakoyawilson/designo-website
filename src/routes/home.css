@@ -144,6 +144,7 @@
   }
 
   .qualities {
+    margin: 16rem auto 0;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
   }

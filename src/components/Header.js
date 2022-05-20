@@ -18,6 +18,7 @@ const Header = ({ showMenu, closeMenu, toggleMenu, scrollToTop }) => {
         closeMenu={closeMenu}
         showMenu={showMenu}
         scrollToTop={scrollToTop}
+        navID="header-nav"
       />
     </header>
   );
