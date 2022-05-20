@@ -14,7 +14,7 @@ const Header = ({ showMenu, closeMenu, toggleMenu }) => {
       <button onClick={toggleMenu}>
         <img src={showMenu ? closeIcon : hamburgerIcon} alt="" />
       </button>
-      {showMenu && <Navbar closeMenu={closeMenu} showMenu={showMenu} />}
+      <Navbar closeMenu={closeMenu} showMenu={showMenu} />
     </header>
   );
 };
