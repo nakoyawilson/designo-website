@@ -78,7 +78,20 @@
 
 /* Media Queries */
 @media (min-width: 376px) {
-  .container {
+  .container,
+  .hero {
     width: min(89.71354%, 689px);
+  }
+
+  .hero {
+    margin-inline: auto;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 769px) {
+  .container,
+  .hero {
+    width: min(77.15278%, 1111px);
   }
 }

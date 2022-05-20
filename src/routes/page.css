@@ -54,3 +54,15 @@
     gap: 3.2rem;
   }
 }
+
+@media (min-width: 769px) {
+  .page {
+    padding-bottom: 38rem;
+  }
+
+  .card-grid {
+    margin: 16rem auto 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+}

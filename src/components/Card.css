@@ -49,3 +49,13 @@
     margin-top: 1.466rem;
   }
 }
+
+@media (min-width: 769px) {
+  .card {
+    display: block;
+  }
+
+  .card-description {
+    margin-top: 1.6rem;
+  }
+}

@@ -46,3 +46,13 @@
     gap: 8rem;
   }
 }
+
+@media (min-width: 769px) {
+  .locations-list {
+    width: min(77.08333%, 1110px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin: 16rem auto;
+  }
+}

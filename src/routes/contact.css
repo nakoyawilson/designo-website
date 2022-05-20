@@ -83,3 +83,26 @@
     margin: -0.1rem 0 0 auto;
   }
 }
+
+@media (min-width: 769px) {
+  .contact-section {
+    width: min(77.15278%, 1111px);
+    padding: 5.5rem 9.6rem 5.4rem 9.5rem;
+    display: flex;
+    align-items: center;
+    gap: 9.5rem;
+  }
+
+  .contact-section .content-wrapper {
+    width: 44.5rem;
+  }
+
+  .contact-form {
+    margin-top: 0;
+    flex: 1;
+  }
+
+  .form-input {
+    padding: 0 1.6rem 1.1rem;
+  }
+}

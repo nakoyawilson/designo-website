@@ -8,7 +8,7 @@ const InnerPagesNav = ({ scrollToTop }) => {
   return (
     <ul className="inner-pages grid container" id="services">
       {location.pathname !== "/web" && (
-        <li className="inner-page-wrapper">
+        <li className="inner-page-wrapper web-design">
           <Link to="/web" onClick={scrollToTop}>
             <h2 className="subheading">Web Design</h2>
             <span className="view-projects">
@@ -19,7 +19,7 @@ const InnerPagesNav = ({ scrollToTop }) => {
         </li>
       )}
       {location.pathname !== "/app" && (
-        <li className="inner-page-wrapper">
+        <li className="inner-page-wrapper app-design">
           <Link to="/app" onClick={scrollToTop}>
             <h2 className="subheading">App Design</h2>
             <span className="view-projects">
@@ -30,7 +30,7 @@ const InnerPagesNav = ({ scrollToTop }) => {
         </li>
       )}
       {location.pathname !== "/graphic" && (
-        <li className="inner-page-wrapper">
+        <li className="inner-page-wrapper graphic-design">
           <Link to="/graphic" onClick={scrollToTop}>
             <h2 className="subheading">Graphic Design</h2>
             <span className="view-projects">

@@ -96,12 +96,16 @@ const Locations = () => {
           <h2 className="section-heading">United Kingdom</h2>
           <address className="location-details-wrapper">
             <span>
-              <span className="location-detail">Designo UK Office</span>
+              <span className="location-detail location-detail-heading">
+                Designo UK Office
+              </span>
               <span className="location-detail">13 Colorado Way</span>
               <span className="location-detail">Rhyd-y-fro SA8 9GA</span>
             </span>
             <span>
-              <span className="location-detail">Contact</span>
+              <span className="location-detail location-detail-heading">
+                Contact
+              </span>
               <span className="location-detail">P : 078 3115 1400</span>
               <span className="location-detail">M : contact@designo.uk</span>
             </span>
