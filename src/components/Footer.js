@@ -22,7 +22,7 @@ const Footer = ({ scrollToTop }) => {
           <Link to="/" onClick={scrollToTop}>
             <img src={lightLogo} alt="Designo logo" className="logo" />
           </Link>
-          <Navbar scrollToTop={scrollToTop} navID="footer-nav" />
+          <Navbar scrollToTop={scrollToTop} />
         </div>
         <div className="content-wrapper">
           <address className="contact-details-wrapper">
