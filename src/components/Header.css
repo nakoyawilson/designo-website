@@ -6,7 +6,7 @@
 }
 
 /* Media Queries */
-@media (min-width: 376px) {
+@media (min-width: 700px) {
   .header {
     margin: 6.4rem auto;
   }

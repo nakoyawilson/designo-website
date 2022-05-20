@@ -63,7 +63,7 @@
 }
 
 /* Media Queries */
-@media (min-width: 376px) {
+@media (min-width: 700px) {
   .header .navigation {
     background: none;
     position: static;

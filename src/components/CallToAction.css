@@ -35,7 +35,7 @@
 }
 
 /* Media Queries */
-@media (min-width: 376px) {
+@media (min-width: 700px) {
   .cta {
     width: min(89.84375%, 690px);
     margin: 0 auto;
@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1220px) {
   .cta {
     width: min(77.15278%, 1111px);
     padding: 7.2rem 9.6rem 7.2rem 9.5rem;

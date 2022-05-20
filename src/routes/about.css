@@ -45,7 +45,7 @@
 }
 
 /* Media Queries */
-@media (min-width: 376px) {
+@media (min-width: 700px) {
   .about {
     padding-bottom: 38.4rem;
   }
@@ -100,7 +100,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1220px) {
   .about {
     padding-bottom: 38rem;
   }

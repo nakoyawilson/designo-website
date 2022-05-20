@@ -41,13 +41,13 @@
 }
 
 /* Media Queries */
-@media (min-width: 376px) {
+@media (min-width: 700px) {
   .locations-list {
     gap: 8rem;
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1220px) {
   .locations-list {
     width: min(77.08333%, 1110px);
     display: grid;

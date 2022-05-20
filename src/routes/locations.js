@@ -12,12 +12,12 @@ const Locations = () => {
       <h1 className="visually-hidden">Our Locations</h1>
       <div id="canada" className="location-wrapper">
         <picture>
-          <source media="(max-width: 375px)" srcSet={canadaMapDesktop} />
+          <source media="(max-width: 699px)" srcSet={canadaMapDesktop} />
           <source
-            media="(max-width: 800px) and (min-width: 376px)"
+            media="(max-width: 1219px) and (min-width: 700px)"
             srcSet={canadaMapTablet}
           />
-          <source media="(min-width: 801px)" srcSet={canadaMapDesktop} />
+          <source media="(min-width: 1220px)" srcSet={canadaMapDesktop} />
           <img
             src={canadaMapDesktop}
             alt="Map of Canada"
@@ -46,12 +46,12 @@ const Locations = () => {
       </div>
       <div id="australia" className="location-wrapper">
         <picture>
-          <source media="(max-width: 375px)" srcSet={australiaMapDesktop} />
+          <source media="(max-width: 699px)" srcSet={australiaMapDesktop} />
           <source
-            media="(max-width: 800px) and (min-width: 376px)"
+            media="(max-width: 1219px) and (min-width: 700px)"
             srcSet={australiaMapTablet}
           />
-          <source media="(min-width: 801px)" srcSet={australiaMapDesktop} />
+          <source media="(min-width: 1220px)" srcSet={australiaMapDesktop} />
           <img
             src={australiaMapDesktop}
             alt="Map of Australia"
@@ -80,12 +80,12 @@ const Locations = () => {
       </div>
       <div id="uk" className="location-wrapper">
         <picture>
-          <source media="(max-width: 375px)" srcSet={ukMapDesktop} />
+          <source media="(max-width: 699px)" srcSet={ukMapDesktop} />
           <source
-            media="(max-width: 800px) and (min-width: 376px)"
+            media="(max-width: 1219px) and (min-width: 700px)"
             srcSet={ukMapTablet}
           />
-          <source media="(min-width: 801px)" srcSet={ukMapDesktop} />
+          <source media="(min-width: 1220px)" srcSet={ukMapDesktop} />
           <img
             src={ukMapDesktop}
             alt="Map of United Kingdom"

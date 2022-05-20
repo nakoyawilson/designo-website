@@ -15,12 +15,12 @@ const About = () => {
     <main className="about">
       <div className="section-wrapper">
         <picture>
-          <source media="(max-width: 375px)" srcSet={heroImgMobile} />
+          <source media="(max-width: 699px)" srcSet={heroImgMobile} />
           <source
-            media="(max-width: 800px) and (min-width: 376px)"
+            media="(max-width: 1219px) and (min-width: 700px)"
             srcSet={heroImgTablet}
           />
-          <source media="(min-width: 801px)" srcSet={heroImgDesktop} />
+          <source media="(min-width: 1220px)" srcSet={heroImgDesktop} />
           <img src={heroImgMobile} alt="" className="" />
         </picture>
         <section className="hero">
@@ -36,12 +36,12 @@ const About = () => {
       </div>
       <div className="section-wrapper">
         <picture>
-          <source media="(max-width: 375px)" srcSet={worldClassMobile} />
+          <source media="(max-width: 699px)" srcSet={worldClassMobile} />
           <source
-            media="(max-width: 800px) and (min-width: 376px)"
+            media="(max-width: 1219px) and (min-width: 700px)"
             srcSet={worldClassTablet}
           />
-          <source media="(min-width: 801px)" srcSet={worldClassDesktop} />
+          <source media="(min-width: 1220px)" srcSet={worldClassDesktop} />
           <img src={worldClassMobile} alt="" className="" />
         </picture>
         <section className="about-section">
@@ -64,12 +64,12 @@ const About = () => {
       <LocationsList />
       <div className="section-wrapper">
         <picture>
-          <source media="(max-width: 375px)" srcSet={realDealMobile} />
+          <source media="(max-width: 699px)" srcSet={realDealMobile} />
           <source
-            media="(max-width: 800px) and (min-width: 376px)"
+            media="(max-width: 1219px) and (min-width: 700px)"
             srcSet={realDealTablet}
           />
-          <source media="(min-width: 801px)" srcSet={realDealDesktop} />
+          <source media="(min-width: 1220px)" srcSet={realDealDesktop} />
           <img src={realDealMobile} alt="" className="" />
         </picture>
         <section className="about-section">

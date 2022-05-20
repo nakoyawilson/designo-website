@@ -50,7 +50,7 @@
 }
 
 /* Media Queries */
-@media (min-width: 376px) {
+@media (min-width: 700px) {
   .contact-section {
     width: min(89.71354%, 689px);
     margin-inline: auto;
@@ -84,7 +84,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1220px) {
   .contact-section {
     width: min(77.15278%, 1111px);
     padding: 5.5rem 9.6rem 5.4rem 9.5rem;
