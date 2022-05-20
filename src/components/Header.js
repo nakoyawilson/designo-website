@@ -5,16 +5,16 @@ import hamburgerIcon from "../assets/shared/mobile/icon-hamburger.svg";
 import closeIcon from "../assets/shared/mobile/icon-close.svg";
 import "./Header.css";
 
-const Header = ({ showMenu, closeMenu }) => {
+const Header = ({ showMenu, closeMenu, toggleMenu }) => {
   return (
     <header className="header container">
       <Link to="/">
         <img src={darkLogo} alt="Designo logo" className="logo" />
       </Link>
-      <button>
+      <button onClick={toggleMenu}>
         <img src={showMenu ? closeIcon : hamburgerIcon} alt="" />
       </button>
-      {showMenu && <Navbar closeMenu={closeMenu} />}
+      {showMenu && <Navbar closeMenu={closeMenu} showMenu={showMenu} />}
     </header>
   );
 };

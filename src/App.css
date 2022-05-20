@@ -71,3 +71,7 @@
   opacity: 0.2;
   border-radius: 50%;
 }
+
+.lock-scroll {
+  overflow: hidden;
+}

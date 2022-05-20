@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-const Navbar = ({ closeMenu }) => {
+const Navbar = ({ closeMenu, showMenu }) => {
   return (
-    <nav>
+    <nav className={`navigation${showMenu ? " open" : ""}`}>
       <ul className="nav-links-wrapper">
         <li>
           <NavLink

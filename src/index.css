@@ -6,6 +6,7 @@
   --light-peach: hsla(11, 100%, 80%, 1);
   --very-light-peach: hsla(14, 76%, 97%, 1);
   --black: hsla(270, 3%, 11%, 1);
+  --black-transparent: hsla(0, 0%, 0%, 0.5);
   --dark-grey: hsla(264, 5%, 20%, 1);
   --white: hsla(0, 0%, 100%, 1);
   --light-grey: hsla(210, 17%, 95%, 1);

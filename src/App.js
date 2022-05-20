@@ -9,10 +9,20 @@ function App() {
 
   const closeMenu = () => {
     setShowMenu(false);
+    document.body.classList.toggle("lock-scroll");
+  };
+
+  const toggleMenu = () => {
+    setShowMenu((prevShowMenu) => !prevShowMenu);
+    document.body.classList.toggle("lock-scroll");
   };
   return (
     <>
-      <Header showMenu={showMenu} closeMenu={closeMenu} />
+      <Header
+        showMenu={showMenu}
+        closeMenu={closeMenu}
+        toggleMenu={toggleMenu}
+      />
       <Outlet />
       <Footer />
     </>
