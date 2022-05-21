@@ -3,6 +3,7 @@
 :root {
   --primary-font: "Jost", sans-serif;
   --peach: hsla(11, 73%, 66%, 1);
+  --peach-transparent: hsla(11, 73%, 66%, 0.8);
   --light-peach: hsla(11, 100%, 80%, 1);
   --very-light-peach: hsla(14, 76%, 97%, 1);
   --black: hsla(270, 3%, 11%, 1);

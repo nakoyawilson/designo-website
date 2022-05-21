@@ -59,7 +59,7 @@ const Contact = () => {
               Your message
             </label>
           </div>
-          <button className="btn btn-light">Submit</button>
+          <button className="btn btn-light btn-submit">Submit</button>
         </form>
       </section>
       <LocationsList />

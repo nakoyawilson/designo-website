@@ -114,4 +114,12 @@
   .social-icons-wrapper {
     margin-left: auto;
   }
+
+  .social-icon-wrapper:hover {
+    cursor: pointer;
+  }
+
+  .social-icon-wrapper:hover .social-icon {
+    fill: var(--light-peach);
+  }
 }

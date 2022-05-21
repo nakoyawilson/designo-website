@@ -46,6 +46,11 @@
   padding: 0 1.377rem 1.1rem;
 }
 
+.form-input:focus {
+  outline: none;
+  border-bottom: 3px solid var(--white);
+}
+
 .form-input::placeholder {
   color: var(--white);
   opacity: 0.5;
@@ -121,5 +126,9 @@
 
   .form-input {
     padding: 0 1.6rem 1.1rem;
+  }
+
+  .btn-submit:hover {
+    cursor: pointer;
   }
 }

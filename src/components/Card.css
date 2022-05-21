@@ -58,4 +58,14 @@
   .card-description {
     margin-top: 1.6rem;
   }
+
+  .card:hover {
+    cursor: pointer;
+    background-color: var(--peach);
+  }
+
+  .card:hover .card-title,
+  .card:hover .card-description {
+    color: var(--white);
+  }
 }

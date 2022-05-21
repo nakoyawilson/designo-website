@@ -92,4 +92,13 @@
   .hero {
     width: min(77.15278%, 1111px);
   }
+
+  .btn-light:hover {
+    color: var(--white);
+  }
+
+  .btn-light:hover,
+  .btn-dark:hover {
+    background-color: var(--light-peach);
+  }
 }

@@ -62,6 +62,14 @@
   text-transform: uppercase;
 }
 
+.navigation .nav-link.active-nav-link {
+  color: var(--peach);
+}
+
+.nav-link:not(.active-nav-link):hover {
+  text-decoration: underline;
+}
+
 /* Media Queries */
 @media (min-width: 700px) {
   .header .navigation {
