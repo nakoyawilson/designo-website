@@ -8,8 +8,10 @@ function App() {
   const [showMenu, setShowMenu] = useState(false);
 
   const closeMenu = () => {
-    setShowMenu(false);
-    document.body.classList.toggle("lock-scroll");
+    if (window.innerWidth < 630) {
+      setShowMenu(false);
+      document.body.classList.toggle("lock-scroll");
+    }
   };
 
   const toggleMenu = () => {
