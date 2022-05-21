@@ -5,8 +5,8 @@
   background-color: var(--peach);
   background-image: url("../assets/shared/desktop/bg-pattern-call-to-action.svg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 876px 584px;
+  background-position: right;
   border-radius: 15px;
   text-align: center;
   color: var(--white);
