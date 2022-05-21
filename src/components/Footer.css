@@ -41,10 +41,6 @@
   margin-top: 4rem;
 }
 
-/* .social-icon {
-  height: 2.4rem;
-} */
-
 /* Media Queres */
 @media (min-width: 700px) {
   .footer {
@@ -117,9 +113,5 @@
 
   .social-icons-wrapper {
     margin-left: auto;
-  }
-
-  .bold-detail {
-    font-weight: 700;
   }
 }

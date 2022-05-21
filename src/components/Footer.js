@@ -36,12 +36,8 @@ const Footer = ({ scrollToTop }) => {
             <span className="contact-detail contact-detail-heading">
               Contact Us (Central Office)
             </span>
-            <span className="contact-detail bold-detail">
-              P : +1 253-863-8967
-            </span>
-            <span className="contact-detail bold-detail">
-              M : contact@designo.co
-            </span>
+            <span className="contact-detail">P : +1 253-863-8967</span>
+            <span className="contact-detail">M : contact@designo.co</span>
           </address>
           <ul className="social-icons-wrapper">
             <li>
