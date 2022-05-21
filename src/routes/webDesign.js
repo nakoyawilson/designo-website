@@ -13,7 +13,7 @@ const Web = () => {
   const scrollToTop = useOutletContext();
 
   return (
-    <main className="page">
+    <main className="page web-design">
       <section className="hero">
         <h1 className="main-heading">Web design</h1>
         <p className="paragraph">

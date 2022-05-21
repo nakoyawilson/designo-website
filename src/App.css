@@ -63,13 +63,10 @@
   left: 0;
   right: 0;
   margin-inline: auto;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 2, 2, 0.0001) 0%,
-    rgba(93, 2, 2, 0.497569) 100%
-  );
-  opacity: 0.2;
-  border-radius: 50%;
+  background-image: url("./assets/shared/desktop/bg-pattern-small-circle.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: -1;
 }
 

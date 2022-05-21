@@ -13,15 +13,15 @@
 }
 
 .locations-list-item:nth-child(1) > .illustration-wrapper::before {
-  transform: matrix(0, -1, -1, 0, 0, 0);
+  transform: matrix(0, 1, 1, 0, 0, 0);
 }
 
-.locations-list-item::nth-child(2) > .illustration-wrapper::before {
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+.locations-list-item:nth-child(2) > .illustration-wrapper::before {
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .locations-list-item:nth-child(3) > .illustration-wrapper::before {
-  transform: matrix(0, 1, 1, 0, 0, 0);
+  transform: matrix(0, -1, -1, 0, 0, 0);
 }
 
 .list-heading {

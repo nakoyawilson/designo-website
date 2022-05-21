@@ -6,7 +6,7 @@
   background-image: url("../assets/shared/desktop/bg-pattern-call-to-action.svg");
   background-repeat: no-repeat;
   background-size: 876px 584px;
-  background-position: right;
+  background-position: top -102px right -309px;
   border-radius: 15px;
   text-align: center;
   color: var(--white);
@@ -41,6 +41,7 @@
     margin: 0 auto;
     padding: 5.7rem 5.9rem 5.7rem 5.8rem;
     top: -26.4rem;
+    background-position: top -117px right -166px;
   }
 
   .cta .section-heading {
@@ -68,6 +69,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-position: right;
   }
 
   .cta .section-heading {

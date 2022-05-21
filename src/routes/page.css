@@ -6,6 +6,18 @@
   text-align: center;
   color: var(--white);
   padding: 10.5rem 2.4rem;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.page.web-design .hero {
+  background-image: url("../assets/web-design/desktop/bg-pattern-intro-web.svg");
+}
+.page.app-design .hero {
+  background-image: url("../assets/app-design/desktop/bg-pattern-intro-app.svg");
+}
+.page.graphic-design .hero {
+  background-image: url("../assets/graphic-design/desktop/bg-pattern-intro-graphic.svg");
 }
 
 .page .main-heading {
@@ -35,6 +47,7 @@
 
   .page .hero {
     padding: 6.4rem 2.4rem;
+    background-position: top -166px left -21.25px;
   }
 
   .page .main-heading {
@@ -58,6 +71,17 @@
 @media (min-width: 1220px) {
   .page {
     padding-bottom: 38rem;
+    background-image: url("../assets/shared/desktop/bg-pattern-leaf.svg");
+    background-repeat: no-repeat;
+    background-position: top 126px left;
+  }
+
+  .page.web-design .hero {
+    background-position: top -166px right;
+  }
+  .page.app-design .hero,
+  .page.graphic-design .hero {
+    background-position: top -166px right 293px;
   }
 
   .card-grid {

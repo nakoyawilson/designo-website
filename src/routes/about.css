@@ -7,6 +7,18 @@
   padding: 8rem 2.4rem;
 }
 
+.about .hero {
+  background-image: url("../assets/about/mobile/bg-pattern-hero-about-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top -140px right;
+}
+
+.about .about-section {
+  background-image: url("../assets/shared/desktop/bg-pattern-three-circles.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
 .about .main-heading {
   font-weight: 500;
   font-size: 3.2rem;
@@ -48,6 +60,15 @@
 @media (min-width: 700px) {
   .about {
     padding-bottom: 38.4rem;
+  }
+
+  .about .hero {
+    background-image: url("../assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+    background-position: top -429.33px left -121.55px;
+  }
+
+  .about .about-section {
+    background-position: bottom 44px left 94px;
   }
 
   .about .section-wrapper {
@@ -103,6 +124,32 @@
 @media (min-width: 1220px) {
   .about {
     padding-bottom: 38rem;
+    background-image: url("../assets/shared/desktop/bg-pattern-leaf.svg");
+    background-repeat: no-repeat;
+    background-position: top 320px left;
+    position: relative;
+  }
+
+  .about::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/shared/desktop/bg-pattern-leaf.svg");
+    background-position: top 1622px right -396px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .about .hero {
+    background-image: url("../assets/about/desktop/bg-pattern-hero-about-desktop.svg");
+    background-position: bottom left;
+  }
+
+  .about .about-section {
+    background-image: url("../assets/shared/desktop/bg-pattern-two-circles.svg");
   }
 
   .about .section-wrapper:nth-child(1) .hero {
@@ -130,10 +177,12 @@
 
   .about .section-wrapper:nth-of-type(2) > .about-section {
     padding: 6.8rem 9.6rem 6.8rem 9.4rem;
+    background-position: bottom right 197px;
   }
 
   .about .section-wrapper:nth-of-type(3) > .about-section {
     padding: 6.8rem 9.4rem 9.4rem 9.5rem;
+    background-position: bottom left;
   }
 
   .about-section,

@@ -10,7 +10,7 @@ const GraphicDesign = () => {
   const scrollToTop = useOutletContext();
 
   return (
-    <main className="page">
+    <main className="page graphic-design">
       <section className="hero">
         <h1 className="main-heading">Graphic design</h1>
         <p className="paragraph">

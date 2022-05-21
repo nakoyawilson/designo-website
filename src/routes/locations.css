@@ -5,6 +5,9 @@
 
 .location {
   background-color: var(--very-light-peach);
+  background-image: url("../assets/shared/desktop/bg-pattern-three-circles.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
   padding: 8rem 2.4rem;
 }
 
@@ -58,6 +61,7 @@
   .location {
     padding: 8.8rem 7.4rem 8.8rem 7.5rem;
     text-align: left;
+    background-position: bottom left;
   }
 
   .location-wrapper:nth-of-type(2),
