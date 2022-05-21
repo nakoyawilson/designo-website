@@ -81,7 +81,8 @@
 
   .location-details-wrapper {
     display: flex;
-    gap: 3rem;
+    justify-content: space-between;
+    width: min(100%, 45rem);
   }
 
   .location-detail {
