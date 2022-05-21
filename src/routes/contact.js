@@ -9,7 +9,12 @@ const Contact = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data);
+    document
+      .querySelectorAll(".form-input")
+      .forEach((formInput) => (formInput.value = ""));
+  };
 
   return (
     <main className="contact">
