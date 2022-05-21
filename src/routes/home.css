@@ -141,9 +141,9 @@
 
   .home .hero {
     padding: 14.5rem 9.5rem;
-    background-image: url("../assets/home/desktop/bg-pattern-hero-home.svg"),
-      url("../assets/home/desktop/image-hero-phone.png");
-    background-position: top right, top -30px right -90px;
+    background-image: url("../assets/home/desktop/image-hero-phone.png"),
+      url("../assets/home/desktop/bg-pattern-hero-home.svg");
+    background-position: top -30px right -90px, top right;
     text-align: left;
   }
 
