@@ -12,9 +12,9 @@ const Locations = () => {
       <h1 className="visually-hidden">Our Locations</h1>
       <div id="canada" className="location-wrapper">
         <picture>
-          <source media="(max-width: 699px)" srcSet={canadaMapDesktop} />
+          <source media="(max-width: 375px)" srcSet={canadaMapDesktop} />
           <source
-            media="(max-width: 1219px) and (min-width: 700px)"
+            media="(max-width: 1219px) and (min-width: 376px)"
             srcSet={canadaMapTablet}
           />
           <source media="(min-width: 1220px)" srcSet={canadaMapDesktop} />
@@ -46,9 +46,9 @@ const Locations = () => {
       </div>
       <div id="australia" className="location-wrapper">
         <picture>
-          <source media="(max-width: 699px)" srcSet={australiaMapDesktop} />
+          <source media="(max-width: 375px)" srcSet={australiaMapDesktop} />
           <source
-            media="(max-width: 1219px) and (min-width: 700px)"
+            media="(max-width: 1219px) and (min-width: 376px)"
             srcSet={australiaMapTablet}
           />
           <source media="(min-width: 1220px)" srcSet={australiaMapDesktop} />
@@ -80,9 +80,9 @@ const Locations = () => {
       </div>
       <div id="uk" className="location-wrapper">
         <picture>
-          <source media="(max-width: 699px)" srcSet={ukMapDesktop} />
+          <source media="(max-width: 375px)" srcSet={ukMapDesktop} />
           <source
-            media="(max-width: 1219px) and (min-width: 700px)"
+            media="(max-width: 1219px) and (min-width: 376px)"
             srcSet={ukMapTablet}
           />
           <source media="(min-width: 1220px)" srcSet={ukMapDesktop} />

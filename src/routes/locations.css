@@ -39,6 +39,11 @@
   margin-top: 2.4rem;
 }
 
+.location-map {
+  width: 100%;
+  min-height: 320px;
+}
+
 /* Media Queries */
 @media (min-width: 700px) {
   .locations {
@@ -82,7 +87,6 @@
   .location-detail {
     font-size: 1.6rem;
     line-height: 2.6rem;
-    width: 255px;
   }
 }
 
@@ -108,7 +112,7 @@
   .location {
     padding: 8.8rem 9.5;
     text-align: left;
-    width: 100%;
+    flex: 2;
   }
 
   .location-wrapper:nth-of-type(2),
@@ -129,6 +133,10 @@
   .location-detail {
     font-size: 1.6rem;
     line-height: 2.6rem;
-    width: 255px;
+  }
+
+  .location-map {
+    height: 100%;
+    flex: 1;
   }
 }

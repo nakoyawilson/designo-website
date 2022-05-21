@@ -15,13 +15,13 @@ const About = () => {
     <main className="about">
       <div className="section-wrapper">
         <picture>
-          <source media="(max-width: 699px)" srcSet={heroImgMobile} />
+          <source media="(max-width: 375px)" srcSet={heroImgMobile} />
           <source
-            media="(max-width: 1219px) and (min-width: 700px)"
+            media="(max-width: 1219px) and (min-width: 376px)"
             srcSet={heroImgTablet}
           />
           <source media="(min-width: 1220px)" srcSet={heroImgDesktop} />
-          <img src={heroImgMobile} alt="" className="" />
+          <img src={heroImgMobile} alt="" className="about-img" />
         </picture>
         <section className="hero">
           <h1 className="main-heading">About us</h1>
@@ -36,13 +36,13 @@ const About = () => {
       </div>
       <div className="section-wrapper">
         <picture>
-          <source media="(max-width: 699px)" srcSet={worldClassMobile} />
+          <source media="(max-width: 375px)" srcSet={worldClassMobile} />
           <source
-            media="(max-width: 1219px) and (min-width: 700px)"
+            media="(max-width: 1219px) and (min-width: 376px)"
             srcSet={worldClassTablet}
           />
           <source media="(min-width: 1220px)" srcSet={worldClassDesktop} />
-          <img src={worldClassMobile} alt="" className="" />
+          <img src={worldClassMobile} alt="" className="about-img" />
         </picture>
         <section className="about-section">
           <h2 className="section-heading">World-class talent</h2>
@@ -64,13 +64,13 @@ const About = () => {
       <LocationsList />
       <div className="section-wrapper">
         <picture>
-          <source media="(max-width: 699px)" srcSet={realDealMobile} />
+          <source media="(max-width: 375px)" srcSet={realDealMobile} />
           <source
-            media="(max-width: 1219px) and (min-width: 700px)"
+            media="(max-width: 1219px) and (min-width: 376px)"
             srcSet={realDealTablet}
           />
           <source media="(min-width: 1220px)" srcSet={realDealDesktop} />
-          <img src={realDealMobile} alt="" className="" />
+          <img src={realDealMobile} alt="" className="about-img" />
         </picture>
         <section className="about-section">
           <h2 className="section-heading">The real deal</h2>

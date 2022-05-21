@@ -4,7 +4,7 @@ import "./CallToAction.css";
 const CallToAction = ({ scrollToTop }) => {
   return (
     <section className="cta">
-      <div>
+      <div className="wrapper">
         <h2 className="section-heading">Let’s talk about your project</h2>
         <p className="paragraph">
           Ready to take it to the next level? Contact us today and find out how
