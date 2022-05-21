@@ -1,0 +1,14 @@
+.error-message {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.6rem;
+  color: var(--white);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 0.9rem;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.8rem;
+}

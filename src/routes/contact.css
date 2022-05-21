@@ -32,6 +32,10 @@
   gap: 2.5rem;
 }
 
+.input-wrapper {
+  position: relative;
+}
+
 .form-input {
   display: block;
   width: 100%;
