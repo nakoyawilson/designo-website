@@ -66,6 +66,10 @@
   color: var(--peach);
 }
 
+.nav-link.nav-link.active-nav-link {
+  cursor: default;
+}
+
 .nav-link:not(.active-nav-link):hover {
   text-decoration: underline;
 }
