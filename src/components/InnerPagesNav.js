@@ -8,37 +8,49 @@ const InnerPagesNav = ({ scrollToTop }) => {
   return (
     <ul className="inner-pages grid container" id="services">
       {location.pathname !== "/web" && (
-        <li className="inner-page-wrapper web-design">
-          <Link to="/web" onClick={scrollToTop}>
+        <Link
+          to="/web"
+          onClick={scrollToTop}
+          className="inner-page-wrapper web-design"
+        >
+          <li>
             <h2 className="subheading">Web Design</h2>
             <span className="view-projects">
               View Projects
               <img src={rightArrow} alt="" className="right-arrow-icon" />
             </span>
-          </Link>
-        </li>
+          </li>
+        </Link>
       )}
       {location.pathname !== "/app" && (
-        <li className="inner-page-wrapper app-design">
-          <Link to="/app" onClick={scrollToTop}>
+        <Link
+          to="/app"
+          onClick={scrollToTop}
+          className="inner-page-wrapper app-design"
+        >
+          <li>
             <h2 className="subheading">App Design</h2>
             <span className="view-projects">
               View Projects
               <img src={rightArrow} alt="" className="right-arrow-icon" />
             </span>
-          </Link>
-        </li>
+          </li>
+        </Link>
       )}
       {location.pathname !== "/graphic" && (
-        <li className="inner-page-wrapper graphic-design">
-          <Link to="/graphic" onClick={scrollToTop}>
+        <Link
+          to="/graphic"
+          onClick={scrollToTop}
+          className="inner-page-wrapper graphic-design"
+        >
+          <li>
             <h2 className="subheading">Graphic Design</h2>
             <span className="view-projects">
               View Projects
               <img src={rightArrow} alt="" className="right-arrow-icon" />
             </span>
-          </Link>
-        </li>
+          </li>
+        </Link>
       )}
     </ul>
   );
