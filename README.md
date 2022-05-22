@@ -24,7 +24,7 @@ Users should be able to:
 - [x] Receive an error message when the contact form is submitted if:
   - The `Name`, `Email Address` or `Your Message` fields are empty should show "Can't be empty"
   - The `Email Address` is not formatted correctly should show "Please use a valid email address"
-- [ ] **Bonus**: View actual locations on the locations page maps (we recommend [Leaflet JS](https://leafletjs.com/) for this)
+- [x] **Bonus**: View actual locations on the locations page maps (we recommend [Leaflet JS](https://leafletjs.com/) for this)
 
 ### Screenshot
 
@@ -43,12 +43,15 @@ Users should be able to:
 - [React Router](https://reactrouter.com/)
 - [React Router Hash Link](https://github.com/rafgraph/react-router-hash-link#readme)
 - [React Hook Form](https://react-hook-form.com/)
+- [Leaflet JS](https://leafletjs.com/)
+- [React Leaflet](https://react-leaflet.js.org/)
 - Mobile-first workflow
 - Figma Design File
 
 ### Useful resources
 
 - [[Solved] “Treating warnings as errors because of process.env.CI = true”](https://dev.to/kapi1/solved-treating-warnings-as-errors-because-of-process-env-ci-true-bk5)
+- [React-leaflet map shows scattered blocks of maps - Stack Overflow](https://stackoverflow.com/questions/72154665/react-leaflet-map-shows-scattered-blocks-of-maps)
 
 ## Author
 

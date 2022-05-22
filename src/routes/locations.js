@@ -1,29 +1,42 @@
-import australiaMapDesktop from "../assets/locations/desktop/image-map-australia.png";
-import canadaMapDesktop from "../assets/locations/desktop/image-map-canada.png";
-import ukMapDesktop from "../assets/locations/desktop/image-map-united-kingdom.png";
-import australiaMapTablet from "../assets/locations/tablet/image-map-australia.png";
-import canadaMapTablet from "../assets/locations/tablet/image-map-canada.png";
-import ukMapTablet from "../assets/locations/tablet/image-map-uk.png";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
+import "leaflet-defaulticon-compatibility";
+
 import "./locations.css";
 
 const Locations = () => {
+  const latLongCanada = [43.644009, -79.394577];
+  const latLongAustralia = [-30.329531, 149.788193];
+  const latLongUK = [51.93944, -3.8811];
+  const mapZoom = 15;
+
   return (
     <main className="locations">
       <h1 className="visually-hidden">Our Locations</h1>
       <div id="canada" className="location-wrapper">
-        <picture>
-          <source media="(max-width: 375px)" srcSet={canadaMapDesktop} />
-          <source
-            media="(max-width: 1219px) and (min-width: 376px)"
-            srcSet={canadaMapTablet}
-          />
-          <source media="(min-width: 1220px)" srcSet={canadaMapDesktop} />
-          <img
-            src={canadaMapDesktop}
-            alt="Map of Canada"
+        <div>
+          <MapContainer
+            center={latLongCanada}
+            zoom={mapZoom}
+            scrollWheelZoom={false}
             className="location-map"
-          />
-        </picture>
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={latLongCanada}>
+              <Popup>
+                Designo Central Office
+                <br />
+                3886 Wellington Street
+                <br />
+                Toronto, Ontario M9C 3J5
+              </Popup>
+            </Marker>
+          </MapContainer>
+        </div>
         <section className="location">
           <h2 className="section-heading">Canada</h2>
           <address className="location-details-wrapper">
@@ -45,19 +58,28 @@ const Locations = () => {
         </section>
       </div>
       <div id="australia" className="location-wrapper">
-        <picture>
-          <source media="(max-width: 375px)" srcSet={australiaMapDesktop} />
-          <source
-            media="(max-width: 1219px) and (min-width: 376px)"
-            srcSet={australiaMapTablet}
-          />
-          <source media="(min-width: 1220px)" srcSet={australiaMapDesktop} />
-          <img
-            src={australiaMapDesktop}
-            alt="Map of Australia"
+        <div>
+          <MapContainer
+            center={latLongAustralia}
+            zoom={mapZoom}
+            scrollWheelZoom={false}
             className="location-map"
-          />
-        </picture>
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={latLongAustralia}>
+              <Popup>
+                Designo AU Office
+                <br />
+                19 Balonne Street
+                <br />
+                New South Wales 2443
+              </Popup>
+            </Marker>
+          </MapContainer>
+        </div>
         <section className="location">
           <h2 className="section-heading">Australia</h2>
           <address className="location-details-wrapper">
@@ -79,19 +101,28 @@ const Locations = () => {
         </section>
       </div>
       <div id="uk" className="location-wrapper">
-        <picture>
-          <source media="(max-width: 375px)" srcSet={ukMapDesktop} />
-          <source
-            media="(max-width: 1219px) and (min-width: 376px)"
-            srcSet={ukMapTablet}
-          />
-          <source media="(min-width: 1220px)" srcSet={ukMapDesktop} />
-          <img
-            src={ukMapDesktop}
-            alt="Map of United Kingdom"
+        <div>
+          <MapContainer
+            center={latLongUK}
+            zoom={mapZoom}
+            scrollWheelZoom={false}
             className="location-map"
-          />
-        </picture>
+          >
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={latLongUK}>
+              <Popup>
+                Designo UK Office
+                <br />
+                13 Colorado Way
+                <br />
+                Rhyd-y-fro SA8 9GA
+              </Popup>
+            </Marker>
+          </MapContainer>
+        </div>
         <section className="location">
           <h2 className="section-heading">United Kingdom</h2>
           <address className="location-details-wrapper">

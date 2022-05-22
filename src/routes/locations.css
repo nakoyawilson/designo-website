@@ -41,7 +41,7 @@
 
 .location-map {
   width: 100%;
-  min-height: 320px;
+  height: 320px;
 }
 
 /* Media Queries */
@@ -137,7 +137,8 @@
   }
 
   .location-map {
-    height: 100%;
+    width: 350px;
+    height: 320px;
     flex: 1;
   }
 }
